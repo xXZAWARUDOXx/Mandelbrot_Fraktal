@@ -4,7 +4,7 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-public class MandalBrotBW {
+public class MandelBrotBW {
     public static void main(String[] args) throws Exception {
         int width = 1920, height = 1080, max = 1000;
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);

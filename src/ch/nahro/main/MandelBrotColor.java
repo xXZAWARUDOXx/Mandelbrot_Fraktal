@@ -32,7 +32,6 @@ public class MandelBrotColor {
                 else image.setRGB(col, row, black);
             }
         }
-
         ImageIO.write(image, "png", new File("mandelbrot.png"));
     }
 }
